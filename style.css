@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+    font-family: Roboto;
+}
+
+.link,
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    padding: 8px 80px;
+}
+
+.logo {
+    size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+.link {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 35px 80px;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 425px;
+}
+
+.main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 450px;
+    background-color: #6d747d;
+    height: 200px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    text-align: center;
+}
+
+.box {
+    height: 140px;
+    width: 140px;
+    border: solid blue;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 30px 90px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.credit {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    margin: 25px 70px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.call-to-action-button {
+    border: solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 0px;
+}
